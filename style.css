@@ -1,0 +1,84 @@
+#contact-list { 
+  padding: 0; /* zeron padding from left */
+  border-radius: 5%; /* the border is what makes the curves at the corners */
+  width: 300px; /* the width of the container*/
+  background-color: #383838;/*color of container*/
+ 
+}
+
+li:nth-child(even) { /* a key word that slects items based off li*/
+
+background-color: #4f4f4f;/*color of every even item in list*/
+}
+li:active{
+background-color: #b7b7b7;/*color when clicking on item*/
+
+}
+
+#contact-list li {
+  display: flex;/* this makes it so that the name and info is set up in a row */
+  flex-direction: row; 
+  align-items: center; /*this centers items in list*/
+  padding: 10px; /* this gives padding inbetween each item in list*/
+  border-bottom: 1px solid #252222;
+}
+
+.button{ /* this sets dimensions and placement of my button*/
+  width: 120;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  border-radius: 5px; /* so its a little round at corners*/
+
+}
+
+.contact-circle { /* this puts the little circle by the names */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* makes the circles a circle */
+  background-color: #12e741;
+  margin-right: 10px;
+}
+.contact-circle2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #b32424;
+  margin-right: 10px;
+}
+.contact-circle3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e4e11f;
+  margin-right: 10px;
+}
+
+.header{ /*this makes the contact header and sets up */
+ /*its arrangment, color, size and font*/
+   padding-top: 20px;
+   padding-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+    font: 1em sans-serif; 
+  font-weight: bold;
+  color: #f5f4f4;
+    font-size: 14px;
+    
+}
+
+.contact-name { /*this sets up the names of the people */
+  
+  font: 1em sans-serif; 
+  font-weight: bold;
+  color: #f5f4f4;
+  font-size: 12px;
+}
+
+.contact-details { 
+  /*sets color and font for details*/
+  font-size: 14px;
+   margin-left: 40px;
+   padding: 2px;
+  color: #888;
+
+}
